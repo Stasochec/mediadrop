@@ -1,0 +1,24 @@
+{
+  "name": "mediadrop-monorepo",
+  "version": "1.0.0",
+  "description": "MediaDrop — Универсальный сервис скачивания медиаконтента (PWA + FastAPI)",
+  "private": true,
+  "scripts": {
+    "start:backend": "backend\\venv\\Scripts\\python backend\\run.py",
+    "start:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "docker:up": "docker compose up --build -d",
+    "docker:down": "docker compose down"
+  },
+  "keywords": [
+    "pwa",
+    "video-downloader",
+    "youtube",
+    "tiktok",
+    "twitter",
+    "fastapi",
+    "react"
+  ],
+  "author": "MediaDrop",
+  "license": "MIT"
+}

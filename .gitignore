@@ -1,0 +1,26 @@
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python virtual environment
+backend/venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Downloaded media files (do not commit user downloads)
+backend/downloads/*
+!backend/downloads/.gitkeep
+downloads/
+
+# Logs and environment
+*.log
+.env
+.DS_Store
+Thumbs.db
